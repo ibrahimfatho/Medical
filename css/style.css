@@ -1,0 +1,137 @@
+.navbar {
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.hero-pad {
+  padding: 0px 15%;
+}
+
+.navbar-toggler {
+  border: none !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.hero {
+  background-image: url(../image/Hero/bg-header.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+#hero-btn {
+  background-color: #ffffff;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+#hero-btn:hover {
+  background-color: #dddddd;
+}
+
+#about-us {
+  height: 100%;
+}
+
+#about-us-p {
+  color: #6bc2f1;
+}
+
+#about-us-btn {
+  background-color: #6bc2f1;
+}
+
+#about-us-btn:hover {
+  background-color: #3abaff;
+}
+
+#features {
+  background-color: #6bc2f1;
+}
+
+#features .img-hover {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+}
+
+.img-hovered {
+  overflow: hidden;
+}
+
+.leyer {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  background-color: #6bc2f17c;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.img-hovered:hover .leyer {
+  top: 0%;
+}
+
+#servises {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#portfolio {
+  width: 100%;
+  height: 100%;
+  background: #f1f1f1;
+}
+
+#review {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  background: #6bc2f1;
+  width: 100%;
+}
+
+.review-content {
+  width: 100%;
+  height: 100%;
+}
+
+#input {
+  border: 1px solid #dddddd;
+  outline: none;
+}
+
+#contact-btn {
+  border: 1px solid #6bc2f1;
+  color: #6bc2f1;
+}
+
+#contact-btn:hover {
+  border: 1px solid #6bc2f1;
+  color: #fff;
+  background: #6bc2f1;
+}
+
+#footer {
+  background: #072135;
+}
+
+#socil-media-icon {
+  color: #fff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+}
+
+#socil-media-icon:hover {
+  color: #6bc2f1;
+}
+/*# sourceMappingURL=style.css.map */
